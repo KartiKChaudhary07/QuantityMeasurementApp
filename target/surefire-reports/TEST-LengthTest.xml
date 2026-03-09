@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="LengthTest" time="0.059" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="LengthTest" time="0.065" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="D:\java\jdk-24.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\alank\AppData\Local\Temp\surefire15606050655018610296\surefirebooter-20260220155802853_3.jar C:\Users\alank\AppData\Local\Temp\surefire15606050655018610296 2026-02-20T15-58-02_758-jvmRun1 surefire-20260220155802853_1tmp surefire_0-20260220155802853_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\alank\AppData\Local\Temp\surefire13347106825445065835\surefirebooter-20260220160257720_3.jar C:\Users\alank\AppData\Local\Temp\surefire13347106825445065835 2026-02-20T16-02-57_625-jvmRun1 surefire-20260220160257720_1tmp surefire_0-20260220160257720_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\QuantityMeasurementApp\target\test-classes;D:\QuantityMeasurementApp\target\classes;C:\Users\alank\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\alank\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alank\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\alank\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alank\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alank\AppData\Local\Temp\surefire15606050655018610296\surefirebooter-20260220155802853_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alank\AppData\Local\Temp\surefire13347106825445065835\surefirebooter-20260220160257720_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -58,14 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testAddition_ExplicitTarget_SamllToLargeScale" classname="LengthTest" time="0.021"/>
+  <testcase name="testAddition_ExplicitTarget_SamllToLargeScale" classname="LengthTest" time="0.027"/>
   <testcase name="testAddition_ExplicitTarget_NegativeValues" classname="LengthTest" time="0.001"/>
-  <testcase name="testAddition_ExplicitTarget_Inches" classname="LengthTest" time="0.001"/>
-  <testcase name="testAddition_ExplicitTarget_Yards" classname="LengthTest" time="0.0"/>
-  <testcase name="testAddition_ExplicitTarget_Centimeters" classname="LengthTest" time="0.003"/>
-  <testcase name="testAddition_ExplicitTarget_NullTargetUnit" classname="LengthTest" time="0.003"/>
-  <testcase name="testAddition_ExplicitTarget_LargeToSmallScale" classname="LengthTest" time="0.001"/>
-  <testcase name="testAddition_ExplicitTarget_SameAsSecondOperand" classname="LengthTest" time="0.0"/>
+  <testcase name="testAddition_ExplicitTarget_Inches" classname="LengthTest" time="0.0"/>
+  <testcase name="testAddition_ExplicitTarget_Yards" classname="LengthTest" time="0.001"/>
+  <testcase name="testAddition_ExplicitTarget_Centimeters" classname="LengthTest" time="0.001"/>
+  <testcase name="testAddition_ExplicitTarget_NullTargetUnit" classname="LengthTest" time="0.002"/>
+  <testcase name="testAddition_ExplicitTarget_LargeToSmallScale" classname="LengthTest" time="0.0"/>
+  <testcase name="testAddition_ExplicitTarget_SameAsSecondOperand" classname="LengthTest" time="0.001"/>
   <testcase name="testAddition_ExplicitTarget_WithZero" classname="LengthTest" time="0.0"/>
   <testcase name="testAddition_ExplicitTarget_Feet" classname="LengthTest" time="0.0"/>
   <testcase name="testAddition_ExplicitTarget_Commutativity" classname="LengthTest" time="0.0"/>
