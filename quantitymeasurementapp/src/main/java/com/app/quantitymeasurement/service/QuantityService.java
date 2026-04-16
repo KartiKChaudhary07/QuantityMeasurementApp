@@ -11,5 +11,4 @@ public interface QuantityService {
     ResponseDTO divide(QuantityInputDTO inputDTO);
     ResponseDTO compare(QuantityInputDTO inputDTO);
     ResponseDTO convert(QuantityInputDTO inputDTO);
-
 }
